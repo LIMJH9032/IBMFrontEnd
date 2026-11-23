@@ -21,7 +21,7 @@ function App() {
           <AboutUs />
         </div>
       ) : (
-        <ProductList />
+        <ProductList onHomeClick={() => setShowProductList(false)} />
       )}
     </div>
   );
